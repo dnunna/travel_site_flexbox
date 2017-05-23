@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+.Job_Application{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0.25em;
+    background-color: transparent;
+    border: 1px solid #708090;
+    border-radius: 4px;
+    border-width: 0.30em;
+}
+
+.input input {
+  border: 0;
+  width: 100%;
+}
+
+.input label {
+  display: block;
+  color: grey;
+}
+
+#NAME {
+  order: 1;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex-basis: 50%;
+  text-align: justify;
+}
+
+#Company{
+  order: 2;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex-basis: 50%;
+}
+
+#PhoneNumber{
+  order: 3;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex: 33.33%;
+}
+#EMAIL{
+  order: 4;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex: 33.33%;
+}
+
+#Availability{
+  order: 5;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex: 33.33%;
+}
+
+#Skills{
+  order: 6;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex: 25%;
+}
+
+#YrsExperience{
+  order: 7;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px solid grey;
+  flex: 25%;
+}
+
+#FavoriteColor{
+  order: 8;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px  solid grey;
+  flex: 25%;
+}
+
+#PLang{
+  order: 9;
+  padding-top: 1em;
+  padding-left: 1em;
+  height: 70px;
+  border: 1px solid grey;
+  flex: 25%;
+}
+
+.SubmitForm{
+  width: 25em;
+  color: white;
+  font-size: 12px;
+  align-items: center;
+  background-color: #a3d63d;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 0.5em;
+  display: block;
+}
